@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Indie+Flower&family=Kanit:wght@500&family=Lato:wght@400;700;900&family=Lexend&family=Mukta:wght@500&family=Open+Sans:wght@300;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@1,500&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: url(image/noel.jpg) no-repeat center/cover;
+display: flex;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+font-family: 'Arimo', sans-serif;
+}
+.anaAlan{
+display: flex;
+width: 100%;
+height: auto;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 15px;
+position: relative;
+}
+.anaAlan > h1{
+color: rgb(248, 214, 167);
+position: absolute;
+top: -75px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.anaAlan > p{
+color: rgb(248, 214, 167);
+position: absolute;
+top: -35px;
+}
+.days{
+width: 200px;
+height: 250px;
+background-color: azure;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+}
+.days > h1{
+color: rgb(0, 48, 34);
+font-size: 70px;
+line-height: 120px;
+}
+.hours{
+width: 200px;
+height: 250px;
+background-color: azure;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+    }
+.hours > h1{
+color: rgb(0, 48, 34);
+font-size: 70px;
+line-height: 120px;
+}
+.mınutes{
+width: 200px;
+height: 250px;
+background-color: azure;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+        }
+.mınutes > h1{
+color: rgb(0, 48, 34);
+font-size: 70px;
+line-height: 120px;
+        }
+.Seconds{
+width: 200px;
+height: 250px;
+background-color: azure;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 10px;
+            }
+.Seconds > h1{
+color: rgb(0, 48, 34);
+font-size: 70px;
+line-height: 120px;
+            }

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Indie+Flower&family=Kanit:wght@500&family=Lato:wght@400;700;900&family=Lexend&family=Montserrat:wght@300;400&family=Mukta:wght@500&family=Open+Sans:wght@300;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@1,500&family=Shadows+Into+Light&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+min-height: 100vh;
+background-color: rgb(157, 120, 64);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-family: 'Arimo', sans-serif;
+}
+.openingcard{
+background: url(image/arkaresim.jpg) no-repeat center/cover;
+background-color: #FDFDFD;
+width: 450px;
+height: 650px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 0 0 20px 0 rgb(74, 64, 64);
+}
+header{
+display: flex;
+flex: 1 1 20%;
+}
+header >img{
+max-width: 200px;
+max-height: 100px;
+}
+main{
+display: flex;
+flex: 1 1 80%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+main > h1{
+    flex: 0 0 30%;
+display: block;
+color: #E28D30;
+padding-bottom: 10px;
+}
+main > p{
+flex: 0 0 20;
+color: rgb(112, 74, 39);
+padding-bottom: 20px;
+}
+main > img{
+display: flex;
+flex: 0 0 45%;
+max-width: 200px;
+max-height: 200px;
+}
+a{
+flex: 0 0 5%;
+color: #E28D30;
+}
+a:hover{
+transform: scale(1.02);
+color: rgb(255, 154, 196);
+}
+footer{
+display: flex;
+flex: 1 1 20%;
+padding-top: 60px;
+}
+footer > p{
+color: #E28D30;
+}
+footer > p:hover{
+transform: scale(1.05);
+color: rgb(255, 154, 196);
+}
