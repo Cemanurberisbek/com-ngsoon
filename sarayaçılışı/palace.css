@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Dancing+Script:wght@600&family=Indie+Flower&family=Kanit:wght@500&family=Lato:wght@400;700;900&family=Lexend&family=Montserrat:wght@300;400&family=Mukta:wght@500&family=Open+Sans:wght@300;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:ital,wght@1,500&family=Shadows+Into+Light&display=swap');
+*{
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+}
+body{
+display: flex;
+min-height: 100vh;
+width: 100vw;
+align-items: center;
+justify-content: center;
+background-color: rgb(255, 191, 187);
+flex-direction: column;
+}
+header,main,footer{
+padding: 15px;
+width: 100%;
+}
+header{
+flex: 1 1 15%;
+}
+a{
+    display: flex;
+    color: #000000;
+    justify-content: center;
+    text-decoration: none;
+}
+h2{
+    color: #ffff;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    font-size: 100px;
+}
+main{
+flex: 1 1 75%;
+}
+h3{
+    color: #ffff;
+    letter-spacing: 5px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    }
+    h4{
+        color: #ffff;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 12px;
+    }
+    h1{
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    font-size: 170px;
+    }
+    h5{
+    color: #000000;
+    display: flex;
+    justify-content: center;
+font-size: 100px;
+font-family: 'Dancing Script', cursive
+    }
+    button{
+    background-color: #1f1a1a;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+    align-items: center;
+    }
+    button:hover{
+    transform: scale(1.04);
+    color: #000000;
+    background-color: #ffff;
+    border: none;
+    
+    }
+    p{
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    }
+footer{
+flex: 1 1 10%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+p > i{
+color: rgb(40, 39, 39);
+letter-spacing: 5px;
+font-size: x-large;
+}
+p>i:hover{
+transform: scale(1.07);
+color: #ffff;
+}
