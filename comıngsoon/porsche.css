@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@400;700;900&family=Mukta:wght@500&family=Open+Sans:wght@300;600&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@100;200&family=Roboto:wght@300;400&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+display: flex;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+font-family: 'Kanit', sans-serif;
+background-repeat: no-repeat;
+background-size: cover;
+animation: background;
+animation-iteration-count: infinite;
+animation-duration: 15s;
+}
+@keyframes background{
+0%{
+background-image: url(image/p1.jpg);
+}
+20%{
+    background-image: url(image/p2.avif);
+    }
+    40%{
+        background-image: url(image/p3.webp);
+        }
+        60%{
+            background-image: url(image/p4.jpg);
+            }
+            80%{
+                background-image: url(image/p5.jpg);
+                }
+                100%{
+                    background-image: url(image/p1.jpg);
+                    }
+}
+header{
+display: flex;
+flex: 1 1 20%;
+align-items: center;
+}
+header > img{
+max-width: 140px;
+max-height: 80px;
+}
+main{
+flex: 1 1 60%;
+font-weight: bolder;
+font-size: xx-large;
+}
+main > h1{
+color: #ffff;
+letter-spacing: 10px;
+padding-bottom: 70px;
+}
+main > p{
+color: #ffff;
+}
+input.mail{
+border-radius: 20px;
+border: none;
+color: gray;
+width: 350px;
+height: 40px;
+}
+input[type=button]{
+border-radius: 20px;
+border: none;
+background-color: rgb(38, 38, 47);
+color: #ffff;
+width: 100px;
+height:38px ;
+transition: transform 0.3s ease, background-color 0.3s ease;
+}
+input[type=button]:hover{
+transform: scale(1.08);
+background-color: rgb(240, 242, 236);
+color: rgb(22, 22, 22);
+}
+footer{
+    display: flex;
+flex: 1 1 20%;
+align-items: center;
+}
+footer > i{
+    font-size: x-large;
+    letter-spacing: 20px;
+    color: #ffff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+footer > i:hover{
+transform: scale(1.06);
+color:#000000;
+}
